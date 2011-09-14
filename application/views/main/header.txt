@@ -1,0 +1,5 @@
+<!--
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url();?>libs/css/reset.css"/> 
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url();?>libs/css/text.css"/> 
+<link rel="stylesheet" type="text/css" media="all" href="<?php echo base_url();?>libs/css/960.css"/>
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>libs/css/master.css"/> -->qq
