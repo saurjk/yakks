@@ -1,6 +1,6 @@
 <div id = "header">
 <div class="container_12">
-<div id = "logo" class="grid_3"><a href="<?php echo site_url(); ?>">Yakks</a></div>
+<div id = "logo" class="grid_3"><a href="http://www.yakks.info">Yakks</a></div>
 <div id = "nav-menu" class="prefix_2 grid_7 clearfix">
 
 	<ul id="navigation">

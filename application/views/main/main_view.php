@@ -4,7 +4,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <title>Yakks</title>
-
 <?php 
 echo link_tag('libs/css/reset.css','stylesheet','text/css'); 
 echo link_tag('libs/css/text.css','stylesheet','text/css'); 
@@ -22,9 +21,9 @@ echo link_tag('libs/images/favicon.gif', 'shortcut icon', 'image/ico');
 
 <div id = "top-content" class="grid_12 clearfix">
 
-<div id="web-development" class="grid_4 alpha"><?php echo img('libs/images/service-1.png'); ?> </div>
-<div id="corporate-identity" class="grid_4"><?php echo img('libs/images/service-2.png'); ?> </div>
-<div id="graphics-and-multimedia" class="grid_4 omega clearfix"><?php echo img('libs/images/service-3.png'); ?> </div>
+<div id="web-development" class="grid_4 alpha"><?php echo img('libs/images/service-1.png'); ?></div>
+<div id="corporate-identity" class="grid_4"><?php echo img('libs/images/service-2.png'); ?></div>
+<div id="graphics-and-multimedia" class="grid_4 omega clearfix"><?php echo img('libs/images/service-3.png'); ?></div>
 </div>
 
 <div id="middle-content" class="grid_12 clearfix">
@@ -40,7 +39,7 @@ echo link_tag('libs/images/favicon.gif', 'shortcut icon', 'image/ico');
 		you've landed at </br>
 		the <span class="yellow">right place!</span></p>
  </div>
-<div id = "portfolio" class="grid_8 omega clearfix"><?php echo img('libs/images/portfolio.png'); ?> </div>
+<div id = "portfolio" class="grid_8 omega clearfix"><?php echo img('libs/images/portfolio.png'); ?></div>
 
 </div>
 
@@ -50,9 +49,7 @@ echo link_tag('libs/images/favicon.gif', 'shortcut icon', 'image/ico');
 <h1>The Team</h1>
 
 	<?php echo $members; ?>
-	<div id="hi-yak">
-	
-	</div>
+
 
 </div>
 <div class="grid_5">

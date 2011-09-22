@@ -1,3 +1,7 @@
+<div id="hi-yak">
+	<div id="message-container">boo</div>
+</div>
+
 <div id="footer-top">
 </div>
 <div id = "footer-bottom">
