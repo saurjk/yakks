@@ -42,8 +42,7 @@ echo link_tag('libs/images/favicon.gif', 'shortcut icon', 'image/ico');
     <p><input type="submit" value="Send"/></p>
 </form>
 
-<div id="hi-yak"></div>
-</div>
+
 </div>
 
 

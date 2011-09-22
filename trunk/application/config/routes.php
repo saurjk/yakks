@@ -41,7 +41,7 @@
 $route['default_controller'] = "main/main";
 //$route['404_override'] = '';
 $route['404_override'] = "errors/error_404";
-
+$route['user']= "user/user";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

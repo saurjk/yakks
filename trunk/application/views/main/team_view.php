@@ -22,9 +22,7 @@ echo link_tag('libs/images/favicon.gif', 'shortcut icon', 'image/ico');
 <div id = "top-content" class="grid_12 clearfix">
 
 Team
-<div id="hi-yak">
-	
-	</div>
+
 </div>
 </div>
 

@@ -9,9 +9,12 @@ echo link_tag('libs/css/reset.css','stylesheet','text/css');
 echo link_tag('libs/css/text.css','stylesheet','text/css'); 
 echo link_tag('libs/css/960.css','stylesheet','text/css'); 
 echo link_tag('libs/css/master.css','stylesheet','text/css'); 
+echo link_tag('libs/css/gallery.css','stylesheet','text/css'); 
 echo link_tag('libs/images/favicon.gif', 'shortcut icon', 'image/ico'); 
 ?>
-
+<script type="text/javascript" src="<?php echo site_url('libs/js/jquery-1.6.4.js'); ?>" ></script>
+<script type="text/javascript" src="<?php echo site_url('libs/js/my-gallery.js'); ?>" ></script>
+<script type="text/javascript" src="<?php echo site_url('libs/js/portfolio.js'); ?>" ></script>
 </head>
 <body>
 
@@ -19,13 +22,29 @@ echo link_tag('libs/images/favicon.gif', 'shortcut icon', 'image/ico');
 
 <div id = "content" class="container_12">
 
-<div id = "top-content" class="grid_12 clearfix">
+<div id = "top-content" class="grid_12 clearfix portfolio">
+<h1>portfolio</h1>
+<p>Blog commenting is another link-building technique that has become quite popular these days. Search the web for authoritative blogs in your niche that allow do-follow commenting and share your mind there. Make sure you read the post before commenting and try to make a point with your comment.</p>
 
-Portfolio
-<div id="hi-yak">
-	
-	</div>
 </div>
+
+<div id = "middle-content" class="grid_12 clearfix portfolio">
+<ul id = "gallery-thumbnails">
+	<li class = "previous_thumbnail grid_1 alpha"><div class="left_arrow">previous</div></li>
+	<?php echo $pf; ?>
+	<li class = "next_thumbnail grid_1 omega"><div class="right_arrow">next</div></li>
+</ul>
+</div>
+
+<div id="bottom-content" class="grid_12 clearfix portfolio">
+
+  <div id='gallery-content'>
+  	<?php echo $pf_desc; ?>
+  </div>
+  
+
+</div>
+
 </div>
 
 
